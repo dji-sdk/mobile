@@ -1,2 +1,0 @@
-# FPV
-First-person View
