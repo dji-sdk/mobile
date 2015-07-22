@@ -19,11 +19,11 @@ and we also provide a reference manual about [How to update the Aircraft Firmwar
 
 Import the folder **Lib** into eclipse, add it as a library for your own project (Right click on your project->Select "**Properties**"->Select "**Android**").
 
-![setLib](../../images/1_importLib.png)
+![setLib](images/1_importLib.png)
 
 2.2 Locate the imported library.
 
-![checkLib](../../images/1_CheckLib.png)
+![checkLib](images/1_CheckLib.png)
 
 ### 3.Implementing for FPV View
 
@@ -31,11 +31,11 @@ Import the folder **Lib** into eclipse, add it as a library for your own project
 
 Add the highlighted meta-data elements into your **AndroidManifest** for activation.
 
-![appKeyMetaData](../../images/1_appKeyMetaData.png)
+![appKeyMetaData](images/1_appKeyMetaData.png)
 
 Input the APP KEY that you have applied from <http://dev.dji.com>. Note that the Identification Code is identical to your project's package name.
 
-![appKey](../../images/1_appKey.png)
+![appKey](images/1_appKey.png)
  
 Add the following codes before calling the SDK APIs,
 ```java
@@ -297,7 +297,7 @@ Be aware of the sequence of the start of `mDjiGLSurfaceView` and the setting of 
 
 Check if everything is running as desired.
 If the follow screen can be seen, it means that you have succesfully created an simple app by using the SDK APIs.
-![afterCompileScreenShot](../../images/afterComplileScreenShot.png)
+![afterCompileScreenShot](images/afterComplileScreenShot.png)
 
 ### 4.Connect to your DJI Drones
 
@@ -330,7 +330,7 @@ After you build and run the project successfully, you can now connect your mobil
 ### 5.Check the result of FPV View
 
 If you can see the live video stream in the app, congratulations! You can move on to the Part 2 of the tutorial now:
-![runAppScreenShot](../../images/runAppScreenShot.png)
+![runAppScreenShot](images/runAppScreenShot.png)
 
 ### 6.Where to Go From Here?
 
@@ -475,7 +475,7 @@ Now, we can build and run the project to verify the functions. You may try out t
 
 Then congratualtions! Your Aerial FPV Android app is complete. You can use this app to control the camera of your Inspire 1.
 
-![recordVideoScreenShot](../../images/recordVideo.png)
+![recordVideoScreenShot](images/recordVideo.png)
 
 ### 4.Where to Go From Here?
 
